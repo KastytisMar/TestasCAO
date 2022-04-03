@@ -1,0 +1,604 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background: rgb(255, 255, 255);
+    font-family: "inter";
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+}
+.header-right {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.navigation {
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+}
+.top-nav {
+    text-decoration: none;
+    color: #555555;
+    margin: 10px;
+}
+.hamburger {
+    display: none;
+}
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+.nft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.nft p {
+    font-size: 19px;
+    color:#FF3998;
+    margin-bottom: 20px;
+}
+.nft h1 {
+    font-size: 96px; 
+    color: #111111;
+    margin-bottom: 20px;
+}
+.nft div {
+    font-size: 20px;
+}
+.sign-up {
+    border-radius: 100px;
+    height: 75px;
+    width: 188px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #f05555, #fcff48);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    margin-top: 40px;
+}
+.robotas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(assets/background.svg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 320px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.container h1{
+    font-size: 40px;
+}
+.container p{
+    font-size: 20px;
+}
+.logos {
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.people {
+    margin-top: 100px;
+}
+.text-text h1{
+    font-size: 40px;
+}
+.text-text p {
+    margin-top: 40px; 
+    font-size: 20px;
+}
+.peoples {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.human {
+    border-radius: 10px;
+    background-color: #EEEEEE;
+}
+.gloop {
+    color: #FF8139;
+    font-size: 12px;
+}
+.top {
+    color: #777777;
+    font-size: 12px;
+    text-align: end;
+}
+.name {
+    color: #111111;
+    font-size: 20px;
+}
+.number {
+    color: #777777;
+    font-size: 18px;
+}
+.eth {
+    color: #111111;
+    font-size: 20px;
+    text-align: end;
+}
+.day {
+    color: #777777;
+    font-size: 18px;
+    text-align: end;
+}
+.human-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px; 
+    border-top: solid 4px; 
+    border-color: #EEEEEE; 
+    border-bottom: solid 4px;
+    border-color: #EEEEEE;  
+}
+.green-girl {
+    margin-top: 60px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo-icons-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.listing {
+    display: flex;
+}
+.navai {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.bot-navai {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #555555;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.bot-nav {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #555555;
+    margin-bottom: 10px;
+}
+.copyright {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    color: #777777;
+}
+@media only screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+    }
+    body {
+        background: rgb(255, 255, 255);
+        font-family: "inter";
+    }
+    header {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .header-right {
+        align-items: center;
+        display: flex;
+        height: 100%;
+    }
+    .navigation {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        width: 30px;
+    }
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        flex-wrap: nowrap;
+        max-width: 100%;
+    }
+    .nft {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .nft p {
+        font-size: 16px;
+        color:#FF3998;
+        margin-bottom: 20px;
+    }
+    .nft h1 {
+        font-size: 48px; 
+        color: #111111;
+        margin-bottom: 20px;
+    }
+    .nft div {
+        font-size: 16px;
+    }
+    .sign-up {
+        border-radius: 100px;
+        height: 75px;
+        width: 188px;
+        font-size: 20px;
+        color: black;
+        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+        border: solid 3px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #f05555, #fcff48);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+        margin-top: 40px;
+    }
+    .robotas {
+        height: 100%;
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url(assets/background.svg);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        height: 320px;
+        height: 100%;
+        padding: 40px;
+        flex-wrap: wrap;
+    }
+    .container h1{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 16px;
+    }
+    .logos {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .boomerang {
+        display: none;
+    }
+    .people {
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .peoples {
+        display: flex;
+        justify-content: space-between;
+        overflow:auto;  
+        gap: 20px;
+    }
+    .human {
+        border-radius: 10px;
+        background-color: #EEEEEE;
+    }
+    .gloop {
+        color: #FF8139;
+        font-size: 12px;
+    }
+    .top {
+        color: #777777;
+        font-size: 12px;
+        text-align: end;
+    }
+    .name {
+        color: #111111;
+        font-size: 20px;
+    }
+    .number {
+        color: #777777;
+        font-size: 18px;
+    }
+    .eth {
+        color: #111111;
+        font-size: 20px;
+        text-align: end;
+    }
+    .day {
+        color: #777777;
+        font-size: 18px;
+        text-align: end;
+    }
+    .human-text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+    }
+    .hero-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        margin-top: 20px; 
+        border-top: solid 4px; 
+        border-color: #EEEEEE; 
+        border-bottom: solid 4px; 
+        border-color: #EEEEEE;
+        margin-left: 20px;
+    }
+    .green-girl {
+        margin-top: 60px; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-icons-nav {
+        padding: 20px;
+        height: 100%;
+    }
+    .listing {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .navai {
+        margin-right: 40px;
+        flex-wrap: wrap;
+    }
+    .bot-navai {
+        margin-right: 20px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #555555;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .bot-nav {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #555555;
+    }
+    .copyright {
+        padding: 20px;
+        display: flex;
+        color: #777777;
+    }
+    .launch {
+        display: none;
+    }
+}
+@media only screen and (max-width: 428px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+    }
+    body {
+        background: rgb(255, 255, 255);
+        font-family: "inter";
+    }
+    header {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .header-right {
+        align-items: center;
+        display: flex;
+        height: 100%;
+    }
+    .navigation {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        width: 30px;
+    }
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        flex-wrap: nowrap;
+        max-width: 100%;
+    }
+    .nft {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .nft p {
+        font-size: 16px;
+        color:#FF3998;
+        margin-bottom: 20px;
+    }
+    .nft h1 {
+        font-size: 48px; 
+        color: #111111;
+        margin-bottom: 20px;
+    }
+    .nft div {
+        font-size: 16px;
+    }
+    .sign-up {
+        border-radius: 100px;
+        height: 75px;
+        width: 188px;
+        font-size: 20px;
+        color: black;
+        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+        border: solid 3px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #f05555, #fcff48);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+        margin-top: 40px;
+    }
+    .robotas {
+        height: 100%;
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url(assets/background.svg);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        height: 320px;
+        padding: 40px;
+        flex-wrap: wrap;
+    }
+    .container h1{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 16px;
+    }
+    .logos {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .boomerang {
+        display: none;
+    }
+    .people {
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .peoples {
+        display: flex;
+        justify-content: space-between;
+        overflow:auto;  
+        gap: 20px;
+    }
+    .human {
+        border-radius: 10px;
+        background-color: #EEEEEE;
+    }
+    .gloop {
+        color: #FF8139;
+        font-size: 12px;
+    }
+    .top {
+        color: #777777;
+        font-size: 12px;
+        text-align: end;
+    }
+    .name {
+        color: #111111;
+        font-size: 20px;
+    }
+    .number {
+        color: #777777;
+        font-size: 18px;
+    }
+    .eth {
+        color: #111111;
+        font-size: 20px;
+        text-align: end;
+    }
+    .day {
+        color: #777777;
+        font-size: 18px;
+        text-align: end;
+    }
+    .human-text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+    }
+    .hero-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        margin-top: 20px; 
+        border-top: solid 4px; 
+        border-color: #EEEEEE; 
+        border-bottom: solid 4px; 
+        border-color: #EEEEEE;
+        margin-left: 20px;
+    }
+    .green-girl {
+        margin-top: 60px; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-icons-nav {
+        padding: 20px;
+        height: 100%;
+    }
+    .listing {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .navai {
+        margin-right: 40px;
+        flex-wrap: wrap;
+    }
+    .bot-navai {
+        margin-right: 20px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #555555;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .bot-nav {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #555555;
+    }
+    .copyright {
+        padding: 20px;
+        display: flex;
+        color: #777777;
+    }
+    .launch {
+        display: none;
+    }
+}
